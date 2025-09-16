@@ -1,0 +1,14 @@
+a = int(input("Enter the first Number: "))
+b = int(input("Enter the Second Number: "))
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+if b != 0:
+    print("Division:", a / b)
+else:
+    print("Division by zero is not possible")
+
+#Task 2
+c = input("Enter Your First Name:")
+d = input("Enter Your Last Name:")
+print("Welcome, " + c + " "+ d + "!" + "Welcome to the Python Programming")
